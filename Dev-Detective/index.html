@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dev-detective</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Bitcount+Single:wght@100..900&family=Bungee&family=Gloria+Hallelujah&family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Just+Another+Hand&family=Oswald:wght@200..700&family=Playwrite+DK+Uloopet+Guides&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <div class="headder">
+
+            <h2>Dev-Detective</h2>
+            <div class="mode">
+                <div data-modeOfPage class="mode-btn">
+                <span class="mode-text-dark">DARK</span>
+                <img class="mode-icon-moon" src="./asset/moon-solid-full.jpg" alt="moon icon">
+                
+
+                <span class="mode-text-light">LIGHT</span>
+                <img class="mode-icon-sun" src="./asset/sun-solid-full.jpg" alt="sun icon">
+    </div>
+</div>
+            
+        </div>
+
+        <div class="search-section">
+            <img class="searchIcon" src="./asset/magnifying-glass-solid-full.jpg" alt="search icone">
+
+
+            <label for="name"></label>
+            <input data-searchedDeveloperId class="input-field" type="text" placeholder="Enter a Github username......."  >
+
+            <button data-searchButton class="btn">Search</button>
+
+        </div>
+
+        <div class="profile-info">
+            <div class="head-of-profile">
+                <div class="image-of-developer">
+                    <img height="100px " width="100px" data-imageOfDeveloper src="" alt="image-of-developer">
+                </div>
+
+                <div class="info-0f-developer">
+
+                    <div class="name-profile">
+                        <p data-nameOfDeveloper></p>
+                        <a data-gitIdOfDeveloper href=""></a>
+                    </div>
+
+                    <div data-dateOfSignUp></div>
+                    
+                </div>
+            </div>
+
+            <p data-bioOfDeveloper></p>
+
+            <div class="information-bar">
+                <div class="box">
+                    <span class="stat-title">Repos</span>
+                    <span data-repoInfo class="stat-number">--</span>
+                </div>
+                
+                <div class="box">
+                    <span class="stat-title">Followers</span>
+                    <span data-followerInfo class="stat-number">--</span>
+                </div>
+                
+                <div class="box">
+                    <span class="stat-title">Following</span>
+                    <span data-followingInfo class="stat-number">--</span>
+                </div>
+            </div>
+
+            <div class="socialMediaLink">
+                <div class="block1">
+                    <div class="image-info">
+
+                        <img data-locationImage class="socialMediaImage" src="./asset/location-crosshairs-solid-full.jpg" alt="">
+                        <p data-locationInfo></p>
+
+                    </div>
+
+                    <div class="image-info">
+
+                        <img data-twitterImage class="socialMediaImage" src="./asset/twitter-brands-solid-full.jpg" alt="">
+                        <p data-twitterInfo></p>
+                        
+                    </div>
+                    
+                </div>
+
+                <div class="block2">
+                    <div class="image-info">
+
+                        <img data-blogImage class="socialMediaImage" src="./asset/blog-solid-full.jpg" alt="">
+                        <p data-blogInfo></p>
+
+                    </div>
+
+                    <div class="image-info">
+
+                        <img data-companyImage class="socialMediaImage" src="./asset/building-solid-full.jpg" alt="">
+                        <p data-companyInfo></p>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+
+        </div>
+        </div>
+        
+    </div>
+    <script src="./script.js"></script>
+    <script src="https://kit.fontawesome.com/01159b22a2.js" crossorigin="anonymous"></script>
+
+</body>
+</html>
